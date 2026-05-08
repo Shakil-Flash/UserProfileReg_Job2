@@ -114,6 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Full Name"
+                    app:hintTextColor="#F00404"
                     app:boxBackgroundColor="#FFF8F5"
                     app:boxCornerRadiusBottomEnd="16dp"
                     app:boxCornerRadiusBottomStart="16dp"
@@ -125,7 +126,8 @@
                         android:id="@+id/etName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="textPersonName" />
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Email -->
@@ -136,6 +138,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:hint="Email Address"
+                    app:hintTextColor="#F00404"
                     app:boxBackgroundColor="#FFF8F5"
                     app:boxCornerRadiusBottomEnd="16dp"
                     app:boxCornerRadiusBottomStart="16dp"
@@ -147,6 +150,7 @@
                         android:id="@+id/etEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:inputType="textEmailAddress" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -158,6 +162,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:hint="Date of Birth"
+                    app:hintTextColor="#F00404"
                     app:boxBackgroundColor="#FFF8F5"
                     app:boxCornerRadiusBottomEnd="16dp"
                     app:boxCornerRadiusBottomStart="16dp"
@@ -168,7 +173,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/etDob"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Address -->
@@ -179,6 +185,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:hint="Address"
+                    app:hintTextColor="#F00404"
                     app:boxBackgroundColor="#FFF8F5"
                     app:boxCornerRadiusBottomEnd="16dp"
                     app:boxCornerRadiusBottomStart="16dp"
@@ -189,7 +196,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/etAddress"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Phone -->
@@ -200,6 +208,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:hint="Phone Number"
+                    app:hintTextColor="#F00404"
                     app:boxBackgroundColor="#FFF8F5"
                     app:boxCornerRadiusBottomEnd="16dp"
                     app:boxCornerRadiusBottomStart="16dp"
@@ -211,6 +220,7 @@
                         android:id="@+id/etPhone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/black"
                         android:inputType="phone" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -221,6 +231,7 @@
                     android:layout_height="58dp"
                     android:layout_marginTop="28dp"
                     android:text="Save User"
+                    app:hintTextColor="#F00404"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
